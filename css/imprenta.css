@@ -1,0 +1,75 @@
+.site-headline {
+  text-align: center;
+}
+.site-logo {
+  font: 900 90px/100px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: -2px;
+  margin: 10px 0 70px 0;
+}
+
+.site-logo small {
+  color: rgba(52, 73, 94, 0.30000000000000004);
+  display: block;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0;
+  padding-top: 5px;
+}
+
+.site-logo img {
+  width: 300px;
+}
+
+.site-logo div {
+  margin: 100px auto;
+}
+
+#servicios {
+  padding: 50px 300px 0 0;
+  background: url(../images/imprenta.png) right bottom no-repeat;
+}
+
+#contacto {
+  padding: 0 0 50px 0;
+}
+
+#nosotros {
+  padding: 0 100px 100px 0;
+  background: url(../images/bottom.png) center bottom no-repeat;
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+}
+
+.address {
+  font-size: 14px;
+}
+
+.navbar-brand {
+  font-size: 17px;
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+  .navbar-brand {
+    font-size: 12px;
+  }
+
+  .site-logo {
+    font-size: 40px;
+  }
+
+  #servicios {
+    padding-right: 0;
+    background: none;
+  }
+
+  #nosotros {
+    padding-right: 0;
+  }
+
+}
